@@ -9,7 +9,7 @@ There is also a file for a AWS Lambda provided (lambda_function.py), where the c
 1) Sample audios are provided.
 2) These samples audios are transcribed to .json files, using AWS Transcribe.
 3) The .json files are analised using AWS Comprenhend.
-4) Finally, the output provided consits of a CSV file with the predominant sentiment for each audio.
+4) Finally, the output provided consits of a txt file with the transcription and the predominant sentiment for each audio.
 
 <img width="1431" alt="Captura de pantalla 2021-05-30 a las 15 24 43" src="https://user-images.githubusercontent.com/32374880/120105926-33ca1b00-c15b-11eb-9693-47129de440cf.png">
 
