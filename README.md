@@ -4,7 +4,7 @@ This project aims to be a tool for sentiment analysis of customer calls.
 
 The code provided in the repo is divided in two files (extracting-text.py and sentiment-analysis.py) where the AWS services Transcribe and Comprenhend are used for audio files processing, translating them to json text files and using NLP. 
 
-There is also a file for a AWS Lambda provided (lambda_function.py), where the code in the other two files is used for implemetation of a simple audio processing process, donde by following a couple of steps:
+There is also a file for a AWS Lambda provided (lambda_function.py), where the code in the other two files is used for implemetation of a simple audio processing process, done by following a couple of steps:
 
 1) Sample audios are provided.
 2) These samples audios are transcribed to .json files, using AWS Transcribe.
@@ -15,3 +15,4 @@ There is also a file for a AWS Lambda provided (lambda_function.py), where the c
 
 Difficulties encountered:
 - Lambda roles for executing the different AWS services.
+- Working with json files
