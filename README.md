@@ -15,4 +15,5 @@ There is also a file for a AWS Lambda provided (lambda_function.py), where the c
 
 Difficulties encountered:
 - Lambda roles for executing the different AWS services.
+- Granting lambda the permission to write in S3.
 - Working with json files
